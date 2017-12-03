@@ -10,9 +10,9 @@ public class GestionProducto {
     public List<Categoria> listar() {
         List<Categoria> categorias = new ArrayList();
 
-        categorias.add(new Categoria(1l, "Libros"));
-        categorias.add(new Categoria(2l, "Electrónicos"));
-        categorias.add(new Categoria(3l, "Niños"));
+        categorias.add(new Categoria(1l, "Libros", "Esta es la categoria de libros"));
+        categorias.add(new Categoria(2l, "Electrónicos", "Esta es la categoria de electronicos"));
+        categorias.add(new Categoria(3l, "Niños", "Esta es la categoria de niños"));
 
         return categorias;
     }

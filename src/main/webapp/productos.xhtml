@@ -23,7 +23,7 @@
                     <p:panel>
                         <h:panelGrid columns="1" style="width:100%">
                             <h:outputText value="#{prod.nombre}" class="titulo" />
-                            <h:outputText value="#{prod.descripcion}" />
+                            <h:outputText value="#{prod.apPaterno}" />
                         </h:panelGrid>
 
                         <p:commandLink update=":form:productoDetalle"
@@ -48,7 +48,7 @@
 
                         <h:outputLabel for="txtDescripcion" value="Descripción: " />
                         <h:outputText id="txtDescripcion" 
-                                      value="#{productoBean.productoSeleccionado.descripcion}" />                       
+                                      value="#{productoBean.productoSeleccionado.descripcion} />                       
                     </h:panelGrid>
                 </p:outputPanel>
 

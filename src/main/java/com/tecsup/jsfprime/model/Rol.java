@@ -1,6 +1,6 @@
 package com.tecsup.jsfprime.model;
 
-public class Categoria {
+public class Rol {
 
     private Long id;
 
@@ -8,12 +8,12 @@ public class Categoria {
     
     private String nombre;
 
-    public Categoria(Long id, String descripcion) {
+    public Rol(Long id, String descripcion) {
         this.id = id;
         this.descripcion = descripcion;
     }
 
-    public Categoria(Long id, String descripcion, String nombre) {
+    public Rol(Long id, String descripcion, String nombre) {
         this.id = id;
         this.descripcion = descripcion;
         this.nombre = nombre;
@@ -27,7 +27,7 @@ public class Categoria {
         this.nombre = nombre;
     }
 
-    public Categoria() {
+    public Rol() {
     }
 
     public Long getId() {
