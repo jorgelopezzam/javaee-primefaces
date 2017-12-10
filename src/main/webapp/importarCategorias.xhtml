@@ -1,11 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<!DOCTYPE html>
-<!DOCTYPE html>
 <html xmlns="http://www.w3c.org/1999/xhtml"
       xmlns:h="http://java.sun.com/jsf/html"
       xmlns:p="http://primefaces.org/ui"
@@ -27,7 +19,7 @@ and open the template in the editor.
                 <p:column headerText="Descripción" filterBy="descripcion" filterMatchMode="contains">
                     <h:outputText value="#{cat.descripcion}" />
                 </p:column>
-                <p:column exportable="false">
+                <p:column exportable="true">
                     <p:commandButton value="Excel" ajax="false">
                         <p:dataExporter type="xls" target="tabla1" fileName="categorias" />
                     </p:commandButton>
